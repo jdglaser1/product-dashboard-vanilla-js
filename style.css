@@ -9,3 +9,11 @@ body{
     box-shadow: inset;
 
 }
+
+/* step 8 making the product cards hover*/
+
+.card:hover{
+    transition: box-shadow 0.1s, transform 0.1s;
+    box-shadow: 10px 10px 10px; /* just guessing the size of the shadow since I am having a hard time getting the cards to show*/
+    transform: scale(1.1)
+}
