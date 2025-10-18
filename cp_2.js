@@ -26,7 +26,7 @@ async function fetchProductsAsync() {
 displayProducts(products)
 
 //handleError(error) if fetch fails
-handelError(error)
+handleError(error)
 }
 
 //step 5 creating the displayProducts function
@@ -45,6 +45,9 @@ function displayProducts(products){
         container.appendChild(card)
     })
 }
-//Step 6
+//Step 6 creating the error message
+function handleError(error){
+    console.log(`An error occurred: ${<message></message>}`)
+}
 
-//Step 7
+
