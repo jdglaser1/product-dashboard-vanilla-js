@@ -47,7 +47,10 @@ function displayProducts(products){
 }
 //Step 6 creating the error message
 function handleError(error){
-    console.log(`An error occurred: ${<message></message>}`)
+    console.log(`An error occurred: `)
 }
 
 
+//Step 7, calling the functions
+fetchProductsThen()
+fetchProductsAsync()
