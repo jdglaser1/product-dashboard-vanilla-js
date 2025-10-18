@@ -20,7 +20,6 @@ fetchProductsThen()
 async function fetchProductsAsync() {
   const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
   const user = await response.json();
-  console.log(user.name);
 
 //passing the results to a function
 displayProducts(products)
